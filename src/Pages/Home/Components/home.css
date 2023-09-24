@@ -1,3 +1,29 @@
 .content {
     height: 200vh;
 }
+.sticky-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: white;
+}
+.menu-center{
+    display: flex;
+    
+}
+.menu-item{
+    padding: 0 20px;
+   
+}
+.hidden{
+    display: none;
+    position: absolute;
+
+}
+.shop-item{
+    position: relative;
+}
+.shop-item:hover .hidden{
+    display: block;
+    
+}
